@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Point';
+  src: url('../public/assets/fonts/PointBlack.otf') format('truetype');
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Point", sans-serif;
+
+}
