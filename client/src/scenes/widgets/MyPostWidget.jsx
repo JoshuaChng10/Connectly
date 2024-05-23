@@ -104,7 +104,7 @@ const MyPostWidget = ({picturePath}) => {
             <Divider sx={{margin: "1.25rem 0"}}/>
 
             <FlexBetween>
-                <FlexBetween gap="0.25rem" onClick={setIsImage(!isImage)}>
+                <FlexBetween gap="0.25rem" onClick={() => setIsImage(!isImage)}>
                     <ImageOutlined sx ={{color: mediumMain}}/>
                     <Typography
                         color={mediumMain}
